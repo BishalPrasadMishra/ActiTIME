@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[titles are matching]]>
+    </line>
+    <line>
+      <![CDATA[titles are matching]]>
+    </line>
+    <line>
+      <![CDATA[titles are matching]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2026-01-21T10:45:14 IST" name="Suite" finished-at="2026-01-21T10:45:43 IST" duration-ms="28792">
+    <groups>
+    </groups>
+    <test started-at="2026-01-21T10:45:14 IST" name="ChromeTest" finished-at="2026-01-21T10:45:24 IST" duration-ms="10381">
+      <class name="testcase.TC_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcase.TC_Login@436813f3]" started-at="2026-01-21T10:45:14 IST" name="setup" finished-at="2026-01-21T10:45:23 IST" duration-ms="8825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:testcase.TC_Login@436813f3]" started-at="2026-01-21T10:45:23 IST" name="login" finished-at="2026-01-21T10:45:24 IST" duration-ms="1300" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[titles are matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.TC_Login@436813f3]" started-at="2026-01-21T10:45:24 IST" name="teardown" finished-at="2026-01-21T10:45:24 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.TC_Login -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2026-01-21T10:45:25 IST" name="EdgeTest" finished-at="2026-01-21T10:45:32 IST" duration-ms="7719">
+      <class name="testcase.TC_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcase.TC_Login@34a3d150]" started-at="2026-01-21T10:45:25 IST" name="setup" finished-at="2026-01-21T10:45:32 IST" duration-ms="7073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:testcase.TC_Login@34a3d150]" started-at="2026-01-21T10:45:32 IST" name="login" finished-at="2026-01-21T10:45:32 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[titles are matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.TC_Login@34a3d150]" started-at="2026-01-21T10:45:32 IST" name="teardown" finished-at="2026-01-21T10:45:32 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.TC_Login -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2026-01-21T10:45:32 IST" name="FirefoxTest" finished-at="2026-01-21T10:45:43 IST" duration-ms="10641">
+      <class name="testcase.TC_Login">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testcase.TC_Login@5c6648b0]" started-at="2026-01-21T10:45:32 IST" name="setup" finished-at="2026-01-21T10:45:42 IST" duration-ms="9324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:testcase.TC_Login@5c6648b0]" started-at="2026-01-21T10:45:42 IST" name="login" finished-at="2026-01-21T10:45:42 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[titles are matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.TC_Login@5c6648b0]" started-at="2026-01-21T10:45:42 IST" name="teardown" finished-at="2026-01-21T10:45:43 IST" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.TC_Login -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
