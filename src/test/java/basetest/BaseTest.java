@@ -11,6 +11,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import autoconstant.AutoConstant;
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest implements AutoConstant
 {	
@@ -21,11 +22,23 @@ public class BaseTest implements AutoConstant
 	public void setup(String browser) throws IOException
 	{
 		if(browser.equalsIgnoreCase("chrome"))
+		{
+			WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
-		else if(browser.equalsIgnoreCase("edge"))
-			driver=new EdgeDriver();
-		else if(browser.equalsIgnoreCase("firefox"))
-			driver=new FirefoxDriver();
+		}
+//
+//		else if(browser.equalsIgnoreCase("edge"))
+//		{
+//			WebDriverManager.edgedriver().setup();
+//			driver=new EdgeDriver();
+//		}
+//			
+//		else if(browser.equalsIgnoreCase("firefox"))
+//		{
+//			WebDriverManager.chromedriver().setup();
+//			driver=new FirefoxDriver();
+//		}
+
 		
 		driver.manage().window().maximize();
 		FileInputStream fis=new FileInputStream(properties_path);

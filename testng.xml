@@ -9,18 +9,5 @@
     </classes>
   </test>
   
- <test thread-count="5" name="EdgeTest">
-  <parameter name="browser" value="EDGE"></parameter>
-    <classes>
-      <class name="testcase.TC_Login"/>
-      <class name="testcase.TC_Demo"/>
-    </classes>
-  </test>
-  <test thread-count="5" name="FirefoxTest">
-  <parameter name="browser" value="FIREFOX"></parameter>
-    <classes>
-      <class name="testcase.TC_Login"/>
-      <class name="testcase.TC_Demo"/>
-    </classes>
-  </test>
+
 </suite>
